@@ -1,0 +1,26 @@
+
+
+### Create an item
+POST http://localhost:3000/items
+Content-Type: application/json
+
+{
+  "name": "Sample Item"
+}
+
+### Get all items
+GET http://localhost:3000/items
+
+### Get one item (replace 1 with actual id)
+GET http://localhost:3000/items/1
+
+### Update an item (replace 1 with actual id)
+PUT http://localhost:3000/items/101
+Content-Type: application/json
+
+{
+  "name": "Updated Item"
+}
+
+### Delete an item (replace 1 with actual id)
+DELETE http://localhost:3000/items/1
